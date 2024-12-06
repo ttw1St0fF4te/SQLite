@@ -6,31 +6,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
-        android:id="@+id/b_name"
+        android:id="@+id/b_author"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:layout_marginTop="14dp"
-        android:text="Преступление и наказание"
+        android:layout_margin="10dp"
+        android:text="Достоевский Федор Михайлович"
         android:textAlignment="viewStart"
         android:textColor="@color/black"
-        android:textSize="14pt"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/b_author"
+        android:id="@+id/b_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:layout_marginTop="16dp"
-        android:text="Достоевский Федор Михайлович"
+        android:layout_margin="10dp"
+        android:text="Преступление и наказание"
         android:textAlignment="viewStart"
-        android:textSize="9pt"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/b_name" />
+        app:layout_constraintTop_toBottomOf="@+id/b_author" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
